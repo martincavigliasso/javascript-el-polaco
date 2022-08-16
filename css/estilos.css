@@ -23,4 +23,23 @@ body {
 
 .fondo-celeste {
     background-color: lightblue;
+
+}
+
+.styledBtn{
+    border-radius: 10px;
+    padding:1%;
+    text-align: center;
+    background-color: cornflowerblue;
+    color:white;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+.styledBtn:hover{
+    background-color: white;
+    color:cornflowerblue;
+}
+.buttonbutton-outline{
+    background-color: aquamarine;
 }
