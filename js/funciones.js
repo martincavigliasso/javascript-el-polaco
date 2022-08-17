@@ -1,5 +1,5 @@
 const IVA =1.21
-const productos = ['aceitunas' , 'salsas' , 'masitas' , 'harinas' , 'aceites']
+//const productos = ['aceitunas' , 'salsas' , 'masitas' , 'harinas' , 'aceites']
 //                     0           1            2           3             4
 
 
@@ -7,11 +7,11 @@ const carrito = []
 
 
 
+console.log ("paso")
 
 
-
-function init(){
-    titulo("el polaco");
+ function init(){
+    titulo();
     mostrarMenu();
     escribirMensaje();
       
@@ -21,9 +21,9 @@ function init(){
     function titulo() {
       let h1 = document.createElement('h1')
       h1.innerText= 'Bienvenido a distribuidora el Polaco'
-      document.body.append(h1);
+     document.body.append (h1)
     }
-    titulo()
+   
   
   
   
